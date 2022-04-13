@@ -1,0 +1,41 @@
+@import "./global.css";
+@import "./gnb.css";
+
+
+/*-------상단------------------------*/
+.main_cake{color:#000; margin:0 auto;}
+
+/*-----상단 ----=style2*/
+#title{text-align:center; margin-top:5rem;}
+.sub_title{font-family: 'Ultra', serif; font-size:2rem;}
+.sub_title_top{ width:100%; margin:25px auto 0 auto;}
+.sub_title_top img{width:100%; margin:2% 0;} /*background:pink; width:1350px; height:280px;*/
+.sub_title_top span{display:inline-block; padding-bottom:1%;font-family:'Noto Sans KR', sans-serif; width:50%; text-align:justify; word-break: break-all;word-break: keep-all;}			
+
+/*---메인(케이크들)----*/
+#containter_cake{width:95%; margin:0 auto;text-align:center; padding:1% 0 5% 0;font-family:'Noto Sans KR', sans-serif;}
+.cakeimages{width:100%;display:flex; justify-content:center;flex-wrap:wrap; }
+.cakeimages li{width:28%;margin-top:2.5%;}
+.cakeimages img{width:80% }
+.cakeimages p{width:100%;font-size:1.2rem; margin-top:0.5%;;}
+.cakeimgaes span{font-size:1rem; }
+.cakeimages a:hover img{opacity:0.7;}
+
+
+
+
+
+
+/*---------------푸터 -----img{width:615px; height:315px;}---------*/
+footer{clear:both;width:100%; margin:0 auto; height:400px; background:#93b5c6; text-align:center;
+		font-family:"Noto"; color:white; } 
+#f_nav ul{padding:30px;}
+#f_nav ul li{padding:20px;font-size:14px;  font-weight:bold; display:inline;} 
+#f_nav ul li a{color:#fff;} 
+#f_nav ul li a:hover{color:#ffe3e3;} 
+
+#f_info{font-size:12px; line-height:20px;}
+
+.sns{width:100%; margin:0 auto; padding-top:30px; }
+.sns li{display:inline; padding:15px; }
+.sns i{color:#fff;}
