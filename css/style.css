@@ -63,11 +63,10 @@
 }
 
 /*--------------CONTENT--------------------*/	
-#content {
+section {
   text-align: center; 
   margin-top: 100px; /*5rem*/
   margin-bottom: 50px;
-  background-color: #407CDB;
 }
 
 .content_title {
@@ -76,7 +75,6 @@
 
 .content_main {
   margin: 25px auto; 
-  background-color: aqua;
 }
 
 /*----ANGEL'S BEST----*/
@@ -106,7 +104,7 @@
 }
 .best_product .roll {
   width: 100%; 
-  height: 850%; 
+  height: 85%; 
   overflow: hidden;
 }
 .best_product .roll ul {
@@ -377,5 +375,18 @@
 
 
 /*-----EVENT BANNER------*/
-/*첫번째 광고 배너에 링크가 갑자기 안걸려서
-코드 전부 삭제*/
+/*best product의 roll : height 850% 오타 -> 85%수정 후 해결.*/
+.event_banner {
+  text-align:center;
+  font-size: 0px;
+  padding-top: 30px;
+}
+
+.event_banner a {
+  display: inline-block; 
+  width: 100%;
+}
+.event_banner img {
+  width: 80%;
+}
+
